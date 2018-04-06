@@ -1,5 +1,5 @@
-public abstract class AbstractTree<T> implements Tree<T> {
-    public void inorder(){
-
+public abstract class AbstractTree<Object> implements Tree<Object> {
+    @Override /** Inorder traversal from the root*/
+    public void inorder() {
     }
 }

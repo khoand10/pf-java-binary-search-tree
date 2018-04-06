@@ -1,5 +1,5 @@
-public interface Tree<T> {
-    public boolean insert(T t);
+public interface Tree<Object> {
+    public boolean insert(Object e);
     public void inorder();
     public int getSize();
 }
